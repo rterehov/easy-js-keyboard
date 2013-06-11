@@ -1,0 +1,46 @@
+img {border:0px;}
+.keyboard {
+    height:190px;
+    width:520px;
+}
+a.key {
+    width:30px;
+    height:24px;
+    border:solid 1px #888888;
+    float:left;
+    margin:1px;
+    text-align:center;
+    cursor:pointer;
+    font-size:14px;
+    color:#000000;
+    text-decoration:none;
+    font-family: Arial,sans-serif;
+    padding-top:6px;
+}
+a.key:hover {
+    border:solid 1px #cccccc;
+    background:#e0e0e0;
+}
+a.key:active {
+    border:solid 1px #cccccc;
+    background:#c0c0c0;
+}
+a#key_0 {width:20px;}
+a#key_backspace {width:58px;}
+a#key_backspace img {width:39px;height:19px;background:url('/img/keyboard/arrow.gif') no-repeat center center;}
+a#key_tab {width:48px;}
+a#key_caps {width:56px;}
+a#key_enter {width:56px;}
+a#key_layout {width:73px;}
+a#key_shift {width:73px;}
+a#key_ctrl {width:48px;}
+a#key_alt {width:48px;}
+a#key_space {width:282px;}
+a#key_on_off {width:100px;}
+a.press {background:#0150d7;}
+
+.line {
+    clear: left;
+}
+
+span.red {color:#ff0000;}
